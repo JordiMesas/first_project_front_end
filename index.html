@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="ca">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Jordi Mesas del Rio">
+    <meta name="description"
+        content="Temari del curs de confecció i publicació de pàgines web, html5, css3, javaScript, php, bootstrap, jquery, despcripció dels participants y els professors">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="img/icono2.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estil.css">
+
+    <title>Espai Visual</title>
+</head>
+
+<body>
+
+    <header>
+
+        <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-interval="5000">
+                    <img src="img/logo.jpg" class="d-block w-100" alt="logo">
+                </div>
+                <div class="carousel-item" data-interval="3000">
+                    <img src="img/cranio.jpg" class="d-block w-100 " alt="imagen de una cara">
+                </div>
+                <div class="carousel-item" data-interval="3000">
+                    <img src="img/ciervo.jpg" class="d-block w-100" alt="un ordenador">
+                </div>
+                <div class="carousel-item" data-interval="3000">
+                    <img src="img/codigo.jpg" class="d-block w-100" alt=" libro de codigo web y un pc">
+                </div>
+                <div class="carousel-item" data-interval="3000">
+                    <img src="img/movil-pc.jpg" class="d-block w-100" alt=" tablet y movil">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+    </header>
+
+
+    <nav class="sticky-top">
+
+        <div class="container-fluid d-sm-none pt-2">
+            <button id="hamburger" type="button" class="btn btn-outline-light"><img src="img/menu.png" alt="hamburguesa"
+                    class="img-fluid"></button>
+        </div>
+        <div class="d-sm-block">
+            <ul class="nav nav-pills nav-fill d-flex flex-column flex-sm-row">
+                <li class="nav-item bg-primary">
+                    <a class="nav-link text-white" href="#">Inici</a>
+                </li>
+                <li class="nav-item bg-info">
+                    <a class="nav-link text-white" href="#temari">Temari</a>
+                </li>
+                <li class="nav-item bg-primary">
+                    <a class="nav-link text-white" href="#alumnes">Participants</a>
+                </li>
+                <li class="nav-item bg-info">
+                    <a class="nav-link text-white" href="#professorat">Professorat</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <main>
+
+        <section>
+
+            <div class="container">
+                <div id="temari">
+                    <div class="row m-auto">
+                        <h2>Vols saber el temari que hem estat aprenent durant el curs?</h2>
+                        <ul>
+                            <li>Si vols veure el temari principal, prem el botó de color blau.</li>
+                            <li>Si vols veure el temari suplementari, prem el botó de color vermell.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class=" row m-auto d-flex justify-content-between">
+                    <div>
+                        <button type="button" class="btn btn-outline-light"><img id="botoBlau" src="img/boton.png"
+                                alt="boton de color azul claro" class="img-fluid"></button>
+                    </div>
+                    <div includeHtml="animation_cubo3d.html"></div>
+                    <div>
+                        <button type="button" class="btn btn-outline-light"><img id="botoVermell" src="img/boton2.png"
+                                alt="boton de color rojo claro" class="img-fluid"></button>
+                    </div>
+                </div>
+            </div>
+
+            <div id="contentPrincipal">
+                <div class="container">
+                    <div class="row m-auto d-flex justify-content-between">
+                        <div class="col-sm-6 col-md-4 col-lg-3">
+                            <img src="img/html5.png" alt="html5" class="img-fluid">
+                            <h3>HTML5</h3>
+                            <p>És la cinquena gran revisió del llenguatge bàsic de la World Wide Web, HTML. HTML 5
+                                especifica dues variants de sintaxi per a HTML: un «clàssic» HTML (text / html), la
+                                variant
+                                coneguda com a HTML5, i una variant XHTML coneguda com a sintaxi XHTML5 que haurà de
+                                ser
+                                usada com a XML (XHTML) (application/xhtml+xml).</p>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3">
+                            <img src="img/css3.png" alt="css3" class="img-fluid">
+                            <h3>CSS3</h3>
+                            <p>En espanyol "Fulles d'estil en cascada", és un llenguatge de disseny gràfic per
+                                definir i
+                                crear la presentació d'un document estructurat escrit en un llenguatge de marcat.
+                            </p>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3">
+                            <img src="img/javascript.png" alt="javascript" class="img-fluid">
+                            <h3>JAVASCRIPT</h3>
+                            <p>És un llenguatge script basat en objectes implementat originàriament per Netscape
+                                Communications Corporation, i que va derivar en l'estàndard ECMAScript.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="contentSuplement">
+                <div class="container">
+                    <div class="row m-auto d-flex justify-content-between">
+                        <div class="col-sm-6 col-md-4 col-lg-3">
+                            <img src="img/bootstrap.png" alt="bootstrap" class="img-fluid">
+                            <h3>BOOTSTRAP</h3>
+                            <p>Biblioteca multiplataforma o conjunt d'eines de codi obert per al fàcil disseny de
+                                llocs
+                                i
+                                aplicacions web. Conté plantilles de disseny amb tipografia, formularis, botons,
+                                quadres,
+                                menús de navegació i altres elements de disseny basat en HTML i CSS.</p>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3">
+                            <img src="img/php.png" alt="php" class="img-fluid">
+                            <h3>PHP</h3>
+                            <p>És un llenguatge de programació de propòsit general de codi del costat del servidor
+                                originalment dissenyat per al desenvolupament web de contingut dinàmic.</p>
+                        </div>
+                        <div class="col-sm-6 col-md-4 col-lg-3">
+                            <img src="img/jquery.png" alt="jquery" class="img-fluid">
+                            <h3>JQUERY</h3>
+                            <p> És una biblioteca o framework de Javascript, creada inicialment per John Resig, que
+                                permet
+                                simplificar la manera d'interaccionar amb els documents HTML, manipular l'arbre DOM,
+                                gestionar esdeveniments, desenvolupar animacions i afegir interacció amb la
+                                tecnologia
+                                AJAX
+                                en pàgines web.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+        <section class="border-top border-primary">
+
+            <div class="container">
+                <div id="alumnes">
+                    <h2>Participants</h2>
+                    <div class="d-flex justify-content-center">
+                        <div class="col-sm-8 col-md-6">
+                            <img src="img/php.png" id="fotosCompanys" alt="Alumne" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section>
+
+            <div class="container">
+                <div id="professorat">
+                    <h2 class="text-white">Professorat</h2>
+                    <div class="row m-auto d-flex justify-content-between">
+
+                        <div class="offset-sm-1 col-md-5 align-self-center">
+                            <div><img src="img/anna.jpg" alt="Anna" class="img-fluid"></div>
+                            <div>
+                                <h3>Anna Hernández</h3>
+                                <p>Professora de desenvolupament web</p>
+                                <p>Curs 2019.</p>
+                            </div>
+                        </div>
+
+                        <div class="offset-sm-1 col-md-5 align-self-center">
+                            <div><img src="img/rafa.jpg" alt="Rafa" class="img-fluid"></div>
+                            <div>
+                                <h3>Rafa Mir</h3>
+                                <p>Professor de diseny gràfic</p>
+                                <p>Curs 2019.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section>
+
+            <div class="container">
+                <h2>Contacta</h2>
+                <div class="row m-auto d-flex justify-content-between">
+                    <div class=" col-md-6 col-lg-5">
+                        <h3>Localització</h3>
+                        <div class="google-maps">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47904.1634186204!2d2.1033005649850236!3d41.373862815695894!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a498d96ebe5bbb%3A0x38bfd2b212ff1170!2sCentre+d&#39;Estudis+Jaume+Balmes!5e0!3m2!1ses!2ses!4v1561586000518!5m2!1ses!2ses"
+                                width="600" height="450" style="border:0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-5">
+                        <form id="contacte" name="contacte" method="post" action="envia.php">
+                            <p>Inscriu-te omplint el formulari i prem el botó d'enviar per enviar-te informació al teu
+                                correu
+                                electrònic.</p>
+                            <div class="form-group">
+                                <label for="validationServer01">Nom i cognoms</label>
+                                <input type="text" class="form-control is-valid" name="nom" id="validationServer01"
+                                    placeholder="Nom i cognoms" value="" required>
+                                <div class="valid-feedback">
+                                    Omple
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Correu electrònic</label>
+                                <input type="email" class="form-control" name="correu" id="exampleInputEmail1"
+                                    placeholder="introdueix el correu electrònic">
+
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input is-invalid" type="checkbox" value="si" name="politica"
+                                    id="invalidCheck3" required>
+                                <label class="form-check-label" for="invalidCheck3">
+                                    Acepto la <a data-toggle="modal" data-target="#exampleModalScrollable">política de
+                                        privacitat</a>
+                                </label>
+                                <!-- Modal -->
+                                <div class="modal fade" id="exampleModalScrollable" tabindex="-1" role="dialog"
+                                    aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-scrollable" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalScrollableTitle">INFORMACIÓ
+                                                    PROTECCIÓ DE DADES
+                                                </h5>
+                                                <button type="button" class="close" data-dismiss="modal"
+                                                    aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p>Finalitats: Enviament del nostre butlletí comercial i de
+                                                    comunicacions informatives i publicitàries sobre els nostres
+                                                    productes o serveis que siguin del seu interès, fins i tot per
+                                                    mitjans electrònics. Legitimació: Consentiment de l'interessat.
+                                                    Destinataris: No estan previstes cessions de dades a tercers,
+                                                    excepte obligació legal. Drets: Pot retirar el seu consentiment en
+                                                    qualsevol moment, així com accedir, rectificar, suprimir les seves
+                                                    dades i altres drets a </p>
+                                                <p><a href="mailto:jordimesas54@gmail.com">jordimesas54@gmail.com</a>
+                                                </p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-dismiss="modal">Tanca</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="invalid-feedback">
+                                    Es obligatori acceptar les condicions de privacitat abans d'enviar les teves
+                                    dades
+                                </div>
+                            </div>
+                            <button type="submit" value="Envia" class="btn btn-primary">Enviar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer class="footer mt-auto bg-dark p-4">
+        <div class="container text-white">
+            <div class="row m-auto d-flex justify-content-between text-center align-items-center">
+                <div class="col-sm-4">
+                    <a href="https://es-es.facebook.com/"><img src="img/facebook.png" class="img-fluid"
+                            alt="Responsive image"></a>
+                    <a href="https://twitter.com/?lang=es"><img src="img/twitter.png" class="img-fluid"
+                            alt="Responsive image"></a>
+                    <a href="https://www.youtube.com/?gl=ES&tab=r10"><img src="img/youtube.png" class="img-fluid"
+                            alt="Responsive image"></a>
+                </div>
+                <div class="col-sm-4">
+                    <ul>
+                        <li>&copy;Jordi Mesas del Rio</li>
+                        <li><a data-toggle="modal" data-target="#exampleModalScrollable">Privacitat i condicions</a>
+                        </li>
+                    </ul>
+                </div>
+                <p class="col-sm-4">
+                    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                        <img style="border:0;width:88px;height:31px"
+                            src="http://jigsaw.w3.org/css-validator/images/vcss" alt="¡CSS Válido!" />
+                    </a>
+                </p>
+
+            </div>
+        </div>
+    </footer>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!--Inclou el cub-->
+    <script src="js/cubo.js"></script>
+    <script>
+        includeHTML();
+    </script>
+    <!--Animacions del body-->
+    <script src="js/animations.js"></script>
+    <!--Nav hamburguer-->
+    <script src="js/navHamburguerJquery.js"></script>
+    <!--validació email-->
+    <script src="js/bootstrap-validate.js"></script>
+    <script>
+        bootstrapValidate(
+            '#exampleInputEmail1',
+            'email: Introdueix el correu electrónic seguint el model d\'aquest exemple nom@gmail.com'
+        );
+    </script>
+
+
+</body>
+
+</html>
